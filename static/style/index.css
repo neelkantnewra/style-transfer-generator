@@ -1,0 +1,31 @@
+* { margin: 0;
+padding: 0;}
+
+/* ############## Top Navigation ###############*/
+
+/* Bacground color to to navgation*/
+.topnav{
+    background-color: rgb(14, 21, 53);
+    overflow: hidden;
+    width:100%
+}
+.topnav .topnav-item{
+    position: relative;
+    left: 40%;
+}
+.topnav a{
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 56% 44% 60% 40% / 100% 0% 100% 0%;
+  }
